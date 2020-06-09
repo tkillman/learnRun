@@ -1,0 +1,48 @@
+body {
+    margin : 0;
+    padding : 0;
+}
+
+form {
+    position: relative;
+}
+header{
+    border-bottom: 1px #ccc solid;
+    padding: 15px 0px 15px 0px;
+    text-align : center;
+}
+
+.container{
+    margin:0 15px 0 15px;
+}
+
+input[type=text]{
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    padding : 10px 15px;
+    border: 1px #ccc solid;
+    font-size: 14px;
+    line-height: 1.5;
+    display: block;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus{
+ outline: none;
+}
+
+.btn-reset{
+ position: absolute;
+ top : 12px;
+ right : 10px;
+ border-radius: 50%;
+ color:white;
+ border:none;
+ background-color: #ccc;   
+}
+
+.btn-reset::before{
+    content: 'X';
+}
+
+
